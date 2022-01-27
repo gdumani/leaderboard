@@ -3,3 +3,4 @@ dist/
 .hintrc
 .stylelintrc.json
 .eslintrc.json
+.lighthouseci/
