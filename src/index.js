@@ -1,9 +1,4 @@
-function component() {
-  const element = document.createElement('div');
+import './style.css';
+import list from './list.js';
 
-  element.innerHTML = 'hello'
-
-  return element;
-}
-
-document.body.appendChild(component());
+list();
