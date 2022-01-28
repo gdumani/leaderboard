@@ -11,6 +11,6 @@ const getGameCode = async () => {
     },
   });
   const GAME_CODE = await RESPONSE.json();
-  console.log(GAME_CODE);
+  return GAME_CODE;
 };
 export default getGameCode;
