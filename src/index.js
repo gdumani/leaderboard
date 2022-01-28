@@ -1,14 +1,19 @@
 import './style.css';
-import list from './list.js';
 import getScores from './getscores.js';
 import submitScore from './submitScore.js';
+import Submition from './submition.js';
 
-let scores = getScores;
-list(scores);
+const gameCode = 'ocQeAmNwjfGpmIDpxrsA';
+const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameCode}/scores/`;
+getScores(url);
 const refresh = document.getElementById('refresh');
 refresh.addEventListener('click', () => {
-  scores = getScores;
-  list(scores);
+  getScores(url);
 });
 const addScore = document.getElementById('add-score');
-addScore.addEventListener('click', () => submitScore());
+addScore.addEventListener('click', () => {
+  const submition = new Submition();
+  if (submition.valid) {
+    submitScore(url, submition);
+  }
+});
