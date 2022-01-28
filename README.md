@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# LEADERBOARD
 
-> Description the project.
+> Simple leaderboard example to practice with APIs.
 
+![screenshot](./app_screenshot.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript
+- NPM
+- Webpack
 
 ## Live Demo (if available)
 
@@ -25,32 +28,40 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+- NPM
+- Webpack
+- linters: ESlint, Stylint, Hint
 ### Setup
-
+```bash
+git clone https://github.com/gdumani/leaderboard.git
+cd leaderboard
+```
 ### Install
-
+```bash
+npm install
+```
 ### Usage
-
+```bash
+npm run start
+```
 ### Run tests
+```bash
+npx stylelint "**/*.{css,scss}"
+```
 
-### Deployment
-
+```bash
+npx hint --telemetry=off .
+```
 
 
 ## Authors
 
-👤 **Author1**
+**Giancarlo Dumani**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gdumani](https://github.com/gdumani)
+- Twitter: [@gdumani1](https://twitter.com/gdumani1)
+- LinkedIn: [ Giancarlo-Dumani](https://www.linkedin.com/in/gdumani/?originalSubdomain=cr)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
