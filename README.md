@@ -5,6 +5,7 @@
 > Simple leaderboard example to practice with APIs.
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png) ![screenshot](./app_screenshot3.png)
 
 ## Built With
 
