@@ -13,6 +13,8 @@ refresh.addEventListener('click', () => {
 const addScore = document.getElementById('add-score');
 addScore.addEventListener('click', () => {
   const submition = new Submition();
+  document.getElementById('name').value = '';
+  document.getElementById('score').value = '';
   if (submition.valid) {
     submitScore(url, submition);
   }
