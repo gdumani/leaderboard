@@ -29,14 +29,20 @@ body {
   padding: 0.5rem;
   margin: 0.5rem;
 }
-
-table {
+.scroll {  
   border: 2px black solid;
-  width: 100%;
-  padding: 0.1rem;
-  margin: 0.5rem;
+  height: 20rem;
+  overflow-y: auto;
 }
 
+table {
+  width: 100%;
+  padding: 0.1rem;
+  margin: 0;
+}
+table::-webkit-scrollbar {
+  display: auto;
+}
 tr:nth-child(even) {
   background: #ccc;
 }
